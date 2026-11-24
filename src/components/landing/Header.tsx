@@ -10,7 +10,7 @@ export function Header() {
     <header className="site-header">
       <div className="wrap header-inner">
         <a className="brand" href="#top" aria-label="HierarchTree">
-          <img src="/logo.png" alt="HierarchTree" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="HierarchTree" />
         </a>
         <nav aria-label="Page">
           <ul className="nav-list">

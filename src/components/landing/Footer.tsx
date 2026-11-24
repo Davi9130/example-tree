@@ -9,7 +9,7 @@ export function Footer() {
       <div className="wrap footer-inner">
         <div>
           <p className="brand">
-            <img src="/logo.png" alt="HierarchTree" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="HierarchTree" />
           </p>
           <p>{libraryDescription}</p>
         </div>
